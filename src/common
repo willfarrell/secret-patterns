@@ -1,0 +1,6 @@
+space="\\\\\s"
+opt_space="${space}*"
+quote="(\\\"|'|\`)"
+opt_quote="${quote}?"
+connect="${opt_space}(:|=>|=)${opt_space}"
+
